@@ -1,7 +1,6 @@
 
 public class main {
 
-
     public static void main(String[] args) {
 
         Mutable<String> start = new Mutable<>("Banana",
@@ -21,6 +20,5 @@ public class main {
 
         System.out.println();
     }
-
 
 }

@@ -30,7 +30,6 @@ class MutableTest {
         Test.next().next().next().setNext(testObject);
         Assertions.assertSame("PineApple", Test.next().next().next().data());
 
-
     }
 
     @Test

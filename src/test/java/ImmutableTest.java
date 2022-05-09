@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 class ImmutableTest {
 
     Immutable<String> Test =        new Immutable<>("Banana",

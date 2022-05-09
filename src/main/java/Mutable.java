@@ -1,6 +1,5 @@
 public class Mutable <T> implements ListNode<T>{
 
-
     ListNode<T> next;
     T value;
 
@@ -11,18 +10,15 @@ public class Mutable <T> implements ListNode<T>{
 
     }
 
-
     public T data() {
 
         return value;
 
     }
 
-
     public ListNode<T> next() {
         return next;
     }
-
 
     public ListNode<T> setNext(ListNode<T> newNext) {
         if(this.next == null){
